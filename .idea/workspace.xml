@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ba25e904-40b8-4cc1-99b3-cd0753825282" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ZGP17lKsmOcr6YTrHlnyNeHtgc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TestHibernate" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\IdeaProjects\Patterns\src\main\java\com\template\creational" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.MainStrategy">
+    <configuration name="MainMediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.mediator.MainMediator" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.behavioral.mediator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainMemento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.memento.MainMemento" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.behavioral.memento.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainStrategy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.strategy.MainStrategy" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.behavioral.strategy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainTemplate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.template.MainTemplate" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.behavioral.template.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainVisitor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.visitor.MainVisitor" />
+      <module name="Patterns" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.template.behavioral.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainStrategy" />
+        <item itemvalue="Application.MainTemplate" />
+        <item itemvalue="Application.MainVisitor" />
+        <item itemvalue="Application.MainMemento" />
+        <item itemvalue="Application.MainMediator" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba25e904-40b8-4cc1-99b3-cd0753825282" name="Default Changelist" comment="" />
+      <created>1584462239588</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1584462239588</updated>
+      <workItem from="1584462244209" duration="53050000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="234" y="4" key="#Auto_Import" timestamp="1584690365591">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="234" y="4" key="#Auto_Import/0.0.1280.690@0.0.1280.690" timestamp="1584690365591" />
+    <state x="447" y="44" width="386" height="372" key="#com.intellij.ide.util.MemberChooser" timestamp="1584700296035">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="447" y="44" width="386" height="372" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1584700296035" />
+    <state x="276" y="271" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584470199003">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="276" y="271" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1280.690@0.0.1280.690" timestamp="1584470199003" />
+    <state x="363" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1584690867090">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="363" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1280.690@0.0.1280.690" timestamp="1584690867090" />
+    <state x="422" y="72" key="FileChooserDialogImpl" timestamp="1584629806999">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="422" y="72" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1584629806999" />
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1584700359395">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1584700359395" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1584700359395">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1584700359395" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1584700359395">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1584700359395" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1584700359395">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1584700359395" />
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1584630733344">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.bottom/0.0.1280.690@0.0.1280.690" timestamp="1584630733344" />
+    <state width="1237" height="208" key="GridCell.Tab.1.center" timestamp="1584630733344">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.center/0.0.1280.690@0.0.1280.690" timestamp="1584630733344" />
+    <state width="1237" height="208" key="GridCell.Tab.1.left" timestamp="1584630733344">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.left/0.0.1280.690@0.0.1280.690" timestamp="1584630733344" />
+    <state width="1237" height="208" key="GridCell.Tab.1.right" timestamp="1584630733344">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state width="1237" height="208" key="GridCell.Tab.1.right/0.0.1280.690@0.0.1280.690" timestamp="1584630733344" />
+    <state x="122" y="0" key="SettingsEditor" timestamp="1584464246694">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="122" y="0" key="SettingsEditor/0.0.1280.690@0.0.1280.690" timestamp="1584464246694" />
+    <state x="303" y="11" width="672" height="678" key="search.everywhere.popup" timestamp="1584686953274">
+      <screen x="0" y="0" width="1280" height="690" />
+    </state>
+    <state x="303" y="11" width="672" height="678" key="search.everywhere.popup/0.0.1280.690@0.0.1280.690" timestamp="1584686953274" />
+  </component>
+</project>
