@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba25e904-40b8-4cc1-99b3-cd0753825282" name="Default Changelist" comment="" />
+    <list default="true" id="ba25e904-40b8-4cc1-99b3-cd0753825282" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/template/behavioral/observer/MainObserver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/template/behavioral/observer/MainObserver.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,6 +18,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +29,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1ZGP17lKsmOcr6YTrHlnyNeHtgc" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -50,13 +57,13 @@
       <recent name="C:\Users\user\IdeaProjects\Patterns\src\main\java\com\template\creational" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainStrategy">
-    <configuration name="MainMediator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.mediator.MainMediator" />
+  <component name="RunManager" selected="Application.MainObserver">
+    <configuration name="MainMemento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.memento.MainMemento" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.template.behavioral.mediator.*" />
+          <option name="PATTERN" value="com.template.behavioral.memento.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -64,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainMemento" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.memento.MainMemento" />
+    <configuration name="MainObserver" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.template.behavioral.observer.MainObserver" />
       <module name="Patterns" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.template.behavioral.memento.*" />
+          <option name="PATTERN" value="com.template.behavioral.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainObserver" />
         <item itemvalue="Application.MainStrategy" />
         <item itemvalue="Application.MainTemplate" />
         <item itemvalue="Application.MainVisitor" />
         <item itemvalue="Application.MainMemento" />
-        <item itemvalue="Application.MainMediator" />
       </list>
     </recent_temporary>
   </component>
@@ -136,7 +143,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1584462239588</updated>
-      <workItem from="1584462244209" duration="53050000" />
+      <workItem from="1584462244209" duration="56299000" />
     </task>
     <servers />
   </component>
@@ -148,10 +155,10 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="234" y="4" key="#Auto_Import/0.0.1280.690@0.0.1280.690" timestamp="1584690365591" />
-    <state x="447" y="44" width="386" height="372" key="#com.intellij.ide.util.MemberChooser" timestamp="1584700296035">
+    <state x="447" y="44" width="386" height="372" key="#com.intellij.ide.util.MemberChooser" timestamp="1584717643372">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state x="447" y="44" width="386" height="372" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1584700296035" />
+    <state x="447" y="44" width="386" height="372" key="#com.intellij.ide.util.MemberChooser/0.0.1280.690@0.0.1280.690" timestamp="1584717643372" />
     <state x="276" y="271" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1584470199003">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
@@ -164,22 +171,22 @@
       <screen x="0" y="0" width="1280" height="690" />
     </state>
     <state x="422" y="72" key="FileChooserDialogImpl/0.0.1280.690@0.0.1280.690" timestamp="1584629806999" />
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1584700359395">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom" timestamp="1584718163093">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1584700359395" />
-    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1584700359395">
+    <state width="1237" height="166" key="GridCell.Tab.0.bottom/0.0.1280.690@0.0.1280.690" timestamp="1584718163093" />
+    <state width="1237" height="166" key="GridCell.Tab.0.center" timestamp="1584718163092">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1584700359395" />
-    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1584700359395">
+    <state width="1237" height="166" key="GridCell.Tab.0.center/0.0.1280.690@0.0.1280.690" timestamp="1584718163092" />
+    <state width="1237" height="166" key="GridCell.Tab.0.left" timestamp="1584718163092">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1584700359395" />
-    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1584700359395">
+    <state width="1237" height="166" key="GridCell.Tab.0.left/0.0.1280.690@0.0.1280.690" timestamp="1584718163092" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right" timestamp="1584718163093">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
-    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1584700359395" />
+    <state width="1237" height="166" key="GridCell.Tab.0.right/0.0.1280.690@0.0.1280.690" timestamp="1584718163093" />
     <state width="1237" height="208" key="GridCell.Tab.1.bottom" timestamp="1584630733344">
       <screen x="0" y="0" width="1280" height="690" />
     </state>
