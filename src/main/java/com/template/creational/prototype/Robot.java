@@ -1,10 +1,14 @@
 package com.template.creational.prototype;
 
-public class Robot implements Prototype {
+/**
+ * Shallow copy
+ */
+public class Robot1 implements Prototype {
+
     private String name;
     private Integer strong;
 
-    public Robot(String name, int strong) {
+    public Robot1(String name, int strong) {
         this.name = name;
         this.strong = strong;
     }
@@ -26,7 +30,8 @@ public class Robot implements Prototype {
     }
 
     @Override
-    public Robot copy() {
-        return new Robot(this.name, this.strong);
+    public Robot1 copy() {
+        return new Robot1(this.name, this.strong);
     }
+
 }
