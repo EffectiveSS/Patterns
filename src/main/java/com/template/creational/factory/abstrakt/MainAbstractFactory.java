@@ -2,7 +2,7 @@ package com.template.creational.factory.abstrakt;
 
 import com.template.creational.factory.abstrakt.kitchenware.Kitchenware;
 
-public class MainAbstract {
+public class MainAbstractFactory {
 
     private static AbstractFactory kitchenwareFactory;
 

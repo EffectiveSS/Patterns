@@ -1,18 +1,18 @@
 package com.template.creational.singleton;
 
-public class Singleton {
+public class LazySingleton {
 
     private String name;
 
-    private static Singleton singleton;
+    private static LazySingleton singleton;
 
-    private Singleton() {
-        name = "Singleton";
+    private LazySingleton() {
+        name = "Lazy Singleton";
     }
 
-    public static Singleton getSingleton() {
+    public static LazySingleton getSingleton() {
         if (singleton == null) {
-            singleton = new Singleton();
+            singleton = new LazySingleton();
         }
 
         return singleton;

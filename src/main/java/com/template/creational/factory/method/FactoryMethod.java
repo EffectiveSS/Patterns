@@ -1,9 +1,7 @@
 package com.template.creational.factory.method;
 
-public class FactoryMethod {
-    private FactoryMethod() {}
+public interface FactoryMethod {
 
-    public static FactoryMethod createFactoryMethod() {
-        return new FactoryMethod();
-    }
+    Vehicle createVehicle();
+
 }
