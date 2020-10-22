@@ -1,6 +1,7 @@
 package com.template.structural.decorator;
 
 public abstract class DecoratorFile implements File {
+
     protected File file;
 
     public DecoratorFile(File file) {
@@ -8,4 +9,5 @@ public abstract class DecoratorFile implements File {
     }
 
     public abstract void read();
+
 }

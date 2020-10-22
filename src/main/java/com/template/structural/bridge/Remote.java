@@ -1,6 +1,7 @@
 package com.template.structural.bridge;
 
 public abstract class Remote {
+
     private final int minRange = 0;
     private final int maxRange = 100;
 
@@ -34,4 +35,5 @@ public abstract class Remote {
     private void printVolume() {
         System.out.println("Volume " + volume);
     }
+
 }

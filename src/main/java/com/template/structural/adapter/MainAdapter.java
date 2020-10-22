@@ -1,6 +1,7 @@
 package com.template.structural.adapter;
 
 public class MainAdapter {
+
     public static void main(String[] args) {
         Adapter adapter = new Adapter();
 
@@ -8,4 +9,5 @@ public class MainAdapter {
         System.out.println(adapter.get12Volt().getVolts());
         System.out.println(adapter.get120Volt().getVolts());
     }
+
 }

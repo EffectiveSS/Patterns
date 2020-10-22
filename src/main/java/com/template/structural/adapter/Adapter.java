@@ -1,7 +1,8 @@
 package com.template.structural.adapter;
 
 public class Adapter implements IAdapter {
-    private Socket socket = new Socket();
+
+    private final Socket socket = new Socket();
 
     @Override
     public Volt get120Volt() {

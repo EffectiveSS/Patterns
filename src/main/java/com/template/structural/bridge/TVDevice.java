@@ -9,7 +9,7 @@ public class TVDevice extends Remote {
 
     @Override
     public void buttonOnePressed() {
-        if (state + 1 <= maxSetting) {
+        if (state < maxSetting) {
             state++;
             System.out.println("Channel up");
         }
@@ -17,9 +17,10 @@ public class TVDevice extends Remote {
 
     @Override
     public void buttonTwoPressed() {
-        if (state - 1 >= 0) {
+        if (state > 0) {
             state--;
             System.out.println("Channel down");
         }
     }
+
 }

@@ -1,7 +1,8 @@
 package com.template.structural.bridge;
 
 public abstract class RemoteButton {
-    private Remote remote;
+
+    private final Remote remote;
 
     public RemoteButton(Remote remote) {
         this.remote = remote;
@@ -20,4 +21,5 @@ public abstract class RemoteButton {
     }
 
     public abstract void buttonFivePressed();
+
 }

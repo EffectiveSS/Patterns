@@ -1,24 +1,14 @@
 package com.template.structural.composite;
 
-public abstract class File {
-    private String name;
-    protected String extension;
+public class File extends FileFolder {
 
     public File(String name) {
-        this.name = name;
+        super(name);
     }
 
-    public String getName() {
-        return name;
+    @Override
+    void read() {
+        System.out.println("File content " + getName());
     }
 
-    public String getExtension() {
-        return extension;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    protected abstract void setExtension();
 }

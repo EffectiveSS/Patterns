@@ -2,7 +2,7 @@ package com.template.structural.flyweight;
 
 public class MainFlyweight {
     public static void main(String[] args) {
-        FlyweightName fwn = FlyweightName.getFlyweightName();
+        FlyweightName fwn = FlyweightName.fwn;
         File file1 = File.getFile("file");
         File file2 = File.getFile("file");
 
