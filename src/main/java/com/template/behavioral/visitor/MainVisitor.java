@@ -1,6 +1,7 @@
 package com.template.behavioral.visitor;
 
 public class MainVisitor {
+
     public static void main(String[] args) {
         Visitor visitor = new Visitor();
         Move one = new Enemy();
@@ -9,4 +10,5 @@ public class MainVisitor {
         one.move(visitor);
         two.move(visitor);
     }
+
 }

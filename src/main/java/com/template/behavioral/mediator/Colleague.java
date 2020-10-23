@@ -1,35 +1,19 @@
 package com.template.behavioral.mediator;
 
-import java.util.List;
 import java.util.ArrayList;
+import java.util.List;
 
 public class Colleague {
-    private boolean state;
-    private List<String> receiveMessages;
+
+    private final List<String> receiveMessages;
     private String sendMessage;
 
     public Colleague() {
-        receiveMessages = new ArrayList<String>();
+        receiveMessages = new ArrayList<>();
     }
 
-    public boolean addMessage(String message) {
-        if (state) {
-            receiveMessages.add(message);
-        }
-
-        return state;
-    }
-
-    public void trueState() {
-        state = true;
-    }
-
-    public void falseState() {
-        state = false;
-    }
-
-    public boolean getState() {
-        return state;
+    public void addMessage(String message) {
+        receiveMessages.add(message);
     }
 
     public String getSendMessage() {
@@ -43,4 +27,5 @@ public class Colleague {
     public void setSendMessage(String sendMessage) {
         this.sendMessage = sendMessage;
     }
+
 }

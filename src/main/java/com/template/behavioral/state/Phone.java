@@ -1,19 +1,29 @@
 package com.template.behavioral.state;
 
 public class Phone {
-    private String name;
-    private IState state;
 
-    public Phone(String name, IState state) {
+    private Boolean state;
+    private final String name;
+    private final IState stateOn = new PowerOn();
+    private final IState stateOff = new PowerOff();
+
+    public Phone(String name, Boolean state) {
         this.name = name;
         this.state = state;
     }
 
-    public void getState() {
-        state.doAction();
+    public String getName() {
+        return name;
     }
 
-    public void setState(IState state) {
-        this.state = state;
+    public void execute() {
+        if (state) {
+            stateOff.doAction();
+            state = false;
+        } else {
+            stateOn.doAction();
+            state = true;
+        }
     }
+
 }

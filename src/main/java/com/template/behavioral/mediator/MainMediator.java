@@ -1,8 +1,7 @@
 package com.template.behavioral.mediator;
 
-import java.util.List;
-
 public class MainMediator {
+
     public static void main(String[] args) {
         Colleague colleague1 = new Colleague();
         Colleague colleague2 = new Colleague();
@@ -10,7 +9,7 @@ public class MainMediator {
         Colleague colleague4 = new Colleague();
         Colleague colleague5 = new Colleague();
 
-        colleague3.setSendMessage("hello");
+        colleague2.setSendMessage("hello");
 
         Sender sender = new Sender();
         sender.addColleague(colleague1);
@@ -19,10 +18,9 @@ public class MainMediator {
         sender.addColleague(colleague4);
         sender.addColleague(colleague5);
 
-        sender.sendMessageTo(colleague3, colleague3.getSendMessage());
+        sender.sendMessageTo(colleague2, colleague2.getSendMessage());
 
-        List<Colleague> list = sender.getColleagues();
-
-        list.forEach(person -> System.out.println(person.getReceiveMessages()));
+        sender.getColleagues().forEach(person -> System.out.println(person.getReceiveMessages()));
     }
+
 }

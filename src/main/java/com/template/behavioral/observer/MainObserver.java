@@ -1,18 +1,19 @@
 package com.template.behavioral.observer;
 
+import java.util.List;
+
 public class MainObserver {
+
     public static void main(String[] args) {
         Site site = new Site();
-
-        Person person1 = new Person("Mark");
-        Person person2 = new Person("Peter");
+        Person person = new Person("Mark");
 
         site.addGoods("smartphone");
+
+        site.addPerson(person);
+
         site.addGoods("laptop");
-
-        site.addPerson(person1);
-        site.addPerson(person2);
-
         site.addGoods("watch");
     }
+
 }

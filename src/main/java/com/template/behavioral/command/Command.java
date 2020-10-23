@@ -4,7 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Command {
-    private List<Activity> commands;
+
+    private final List<Activity> commands;
 
     public Command() {
         commands = new ArrayList<>();
@@ -14,7 +15,8 @@ public class Command {
         commands.add(activity);
     }
 
-    public void makeCommand() {
+    public void executeCommand() {
         commands.forEach(Activity::work);
     }
+
 }

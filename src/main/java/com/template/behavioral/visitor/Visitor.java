@@ -4,11 +4,12 @@ public class Visitor implements IVisitor {
 
     @Override
     public void moveForward() {
-        System.out.println("move forward");
+        System.out.println("Move forward");
     }
 
     @Override
     public void moveBackward() {
-        System.out.println("move backward");
+        System.out.println("Move backward");
     }
+
 }

@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Site implements Observed {
-    private List<String> goods;
-    private List<Person> subscribers;
+
+    private final List<String> goods;
+    private final List<Person> subscribers;
 
     public Site() {
         goods = new ArrayList<>();
@@ -26,4 +27,5 @@ public class Site implements Observed {
     public void notifyPerson() {
         subscribers.forEach(person -> person.handleEvent(goods));
     }
+
 }

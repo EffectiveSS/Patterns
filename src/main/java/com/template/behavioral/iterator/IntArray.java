@@ -1,7 +1,8 @@
 package com.template.behavioral.iterator;
 
 public class IntArray implements Container {
-    private int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
+
+    private final int[] arr = { 1, 2, 3, 4, 5, 6, 7, 8, 9 };
 
     @Override
     public Iterator getIterator() {
@@ -9,6 +10,7 @@ public class IntArray implements Container {
     }
 
     private class ArrayIterator implements Iterator {
+
         private int index;
 
         @Override
@@ -17,11 +19,14 @@ public class IntArray implements Container {
         }
 
         @Override
-        public Object next() {
+        public Integer next() {
             if (hasNext()) {
                 return arr[index++];
             }
+
             return null;
         }
+
     }
+
 }

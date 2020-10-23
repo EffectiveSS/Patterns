@@ -1,33 +1,31 @@
 package com.template.behavioral.mediator;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.HashSet;
+import java.util.LinkedHashSet;
+import java.util.Set;
+import java.util.TreeSet;
 
 public class Sender implements Mediator {
-    private List<Colleague> colleagues;
+
+    private final Set<Colleague> colleagues;
 
     public Sender() {
-        colleagues = new ArrayList<>();
+        colleagues = new LinkedHashSet<>();
     }
 
-    public void addColleague(Colleague colleague) {
-        if (colleagues.stream().noneMatch(person -> person == colleague)) {
-            colleagues.add(colleague);
-        }
+    public boolean addColleague(Colleague colleague) {
+        return colleagues.add(colleague);
     }
 
     @Override
     public void sendMessageTo(Colleague colleague, String message) {
-        colleague.falseState();
         colleagues.stream()
                 .filter(person -> person != colleague)
-                .forEach(person -> {
-                    person.trueState();
-                    person.addMessage(message);
-                });
+                .forEach(person -> person.addMessage(message));
     }
 
-    public List<Colleague> getColleagues() {
+    public Set<Colleague> getColleagues() {
         return colleagues;
     }
+
 }

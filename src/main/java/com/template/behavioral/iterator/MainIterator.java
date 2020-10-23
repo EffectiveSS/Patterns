@@ -1,6 +1,7 @@
 package com.template.behavioral.iterator;
 
 public class MainIterator {
+
     public static void main(String[] args) {
         IntArray arr = new IntArray();
         Iterator iter = arr.getIterator();
@@ -9,4 +10,5 @@ public class MainIterator {
             System.out.println(iter.next());
         }
     }
+
 }
